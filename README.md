@@ -1,13 +1,28 @@
-# DartsNDrunks — Politique de Confidentialité
+# DartsNDrunks — Privacy Policy
 
-Site statique hébergeant la politique de confidentialité de l'application mobile **DartsNDrunks**.
+Static site hosting the privacy policy of the mobile application **DartsNDrunks**.
 
-- Page : https://navarog4.github.io/dartsndrunks-policy/
-- Source : [`CONFIDENTIALITE.md`](./CONFIDENTIALITE.md)
-- Génération : `node scripts/gen-privacy-page.js` (racine du repo de l'app)
+- **English (default):** https://navarog4.github.io/dartsndrunks-policy/
+- **Français :** https://navarog4.github.io/dartsndrunks-policy/fr/
+- Sources: [`PRIVACY.md`](./PRIVACY.md) (EN) / [`CONFIDENTIALITE.md`](./CONFIDENTIALITE.md) (FR)
+- Generator: `node scripts/gen-privacy-page.js` (root of the app repo)
 
-## Mise à jour
+## How to update
 
-1. Modifier `legal/CONFIDENTIALITE.md` dans le repo de l'app.
-2. Régénérer : `node scripts/gen-privacy-page.js` → copier `scripts/index.html` ici.
-3. Commiter et pousser.
+1. Edit `legal/PRIVACY.md` (EN) and/or `legal/CONFIDENTIALITE.md` (FR) in the app repo.
+2. Regenerate the HTML pages (see commands below), then copy to this directory.
+3. Commit and push.
+
+### Regeneration commands
+
+```bash
+node scripts/gen-privacy-page.js ../legal/PRIVACY.md ./index.html en \
+  "Privacy Policy - DartsNDrunks" \
+  "Privacy policy for DartsNDrunks mobile application" \
+  "./fr/index.html" "Francais"
+
+node scripts/gen-privacy-page.js ../legal/CONFIDENTIALITE.md ./fr/index.html fr \
+  "Politique de Confidentialite - DartsNDrunks" \
+  "Politique de confidentialite de l'application DartsNDrunks" \
+  "../index.html" "English"
+```

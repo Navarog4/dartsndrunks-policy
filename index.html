@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Politique de confidentialité de l'application DartsNDrunks">
-  <title>Politique de Confidentialité — DartsNDrunks</title>
+  <meta name="description" content="Privacy policy for DartsNDrunks mobile application">
+  <title>Privacy Policy - DartsNDrunks</title>
   <style>
     :root { color-scheme: light; }
     * { box-sizing: border-box; }
@@ -16,6 +16,14 @@
       background: #f5f3f0;
     }
     .wrap { max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; }
+    .top-bar { position: sticky; top: 0; z-index: 10; display: flex; gap: 10px; align-items: center; margin-bottom: 24px; }
+    .btn-back, .lang-switch {
+      display: inline-block; color: #fff; background: #1c1917; text-decoration: none;
+      padding: 8px 14px; border-radius: 8px; font-size: .9rem; font-weight: 600;
+    }
+    .btn-back:hover, .lang-switch:hover { background: #c01616; }
+    .lang-switch { background: #e02e2e; }
+    .lang-switch:hover { background: #b01a1a; }
     h1 { font-size: 1.7rem; border-bottom: 3px solid #e02e2e; padding-bottom: 12px; }
     h2 { font-size: 1.3rem; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
     h3, h4, h5, h6 { margin-top: 1.6em; }
@@ -27,198 +35,195 @@
     blockquote { margin: 1em 0; padding: .4em 1em; border-left: 4px solid #e02e2e; background: #faf7f5; }
     hr { border: none; border-top: 1px solid #d6d3d1; margin: 2.5em 0; }
     strong { font-weight: 600; }
-    .btn-back {
-      position: sticky; top: 0; display: inline-block; margin-bottom: 24px;
-      color: #fff; background: #1c1917; text-decoration: none;
-      padding: 8px 14px; border-radius: 8px; font-size: .9rem; font-weight: 600;
-    }
-    .btn-back:hover { background: #c01616; }
     footer { margin-top: 48px; font-size: .82rem; color: #78716c; border-top: 1px solid #d6d3d1; padding-top: 16px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <a class="btn-back" href="#top">&uarr; Haut de page</a>
-<h1>Politique de Confidentialité</h1>
-<p><strong>Dernière mise à jour : 2026-09-15</strong></p>
-<p><strong>Version : 2.0</strong></p>
+    <div class="top-bar">
+      <a class="btn-back" href="#top">↑ Back to top</a>
+      <a href="./fr/index.html" class="lang-switch">Francais</a>
+    </div>
+<h1>Privacy Policy</h1>
+<p><strong>Last updated: 2026-09-15</strong></p>
+<p><strong>Version: 2.0</strong></p>
 <hr>
-<h2>1. Responsable de traitement</h2>
-<p><strong>Personne physique :</strong></p>
-<p><strong>Nom commercial :</strong> DartsNDrunks</p>
-<p><strong>Représentant légal :</strong> Faustin LEGRAND</p>
-<p><strong>Statut :</strong> Particulier (personne physique)</p>
-<p><strong>Adresse :</strong> 9 rue du Pressoir, 80800 Villers-Bretonneux</p>
-<p><strong>Email DPO / Contact RGPD :</strong> [faustinlegrand4@gmail.com]</p>
+<h2>1. Data Controller</h2>
+<p><strong>Individual:</strong></p>
+<p><strong>Trade name:</strong> DartsNDrunks</p>
+<p><strong>Legal representative:</strong> Faustin LEGRAND</p>
+<p><strong>Status:</strong> Private individual</p>
+<p><strong>Address:</strong> 9 rue du Pressoir, 80800 Villers-Bretonneux, France</p>
+<p><strong>Email / GDPR Contact:</strong> faustinlegrand4@gmail.com</p>
 <hr>
-<h2>2. Application concernée</h2>
-<p>La présente Politique de Confidentialité s'applique à l'application mobile <strong>« DartsNDrunks »</strong> (ci-après « l'Application »), publiée sur le <strong>Google Play Store</strong> (Android, identifiant <code>com.dartsndrunks.game</code>).</p>
-<p>L'Application est un jeu de fléchettes à gages (usage adulte, rattaché à la consommation d'alcool) permettant de gérer des parties, des scores, des pénalités et des modes de jeu gratuits et premium.</p>
+<h2>2. Covered Application</h2>
+<p>This Privacy Policy applies to the mobile application <strong>"DartsNDrunks"</strong> (hereinafter "the Application"), published on the <strong>Google Play Store</strong> (Android, package ID <code>com.dartsndrunks.game</code>).</p>
+<p>The Application is a drinking game involving darts (adult use, related to alcohol consumption) that manages rounds, scores, penalties (forfeits/dares), and both free and premium game modes.</p>
 <hr>
-<h2>3. Principes directeurs</h2>
+<h2>3. Key Principles</h2>
 <ul>
-<li><strong>Stockage local</strong> : Les données de jeu (profils, scores, historique, préférences) sont stockées <strong>exclusivement sur votre appareil</strong> dans une base de données SQLite embarquée. Aucune de ces données n'est transmise à l'Éditeur (qui n'exploite aucun serveur).</li>
-<li><strong>Minimisation</strong> : Nous ne traitons que les données strictement nécessaires au fonctionnement du jeu et à la diffusion de publicités.</li>
-<li><strong>Transparence</strong> : Nous déclarons ci-dessous, de manière exhaustive, les données collectées, leur finalité, leur base légale et leur durée de conservation.</li>
-<li><strong>Consentement publicitaire</strong> : Les publicités personnalisées ne sont affichées qu'avec votre consentement exprès, recueilli via le bandeau de consentement Google (UMP) conformément au RGPD.</li>
-<li><strong>Contrôle utilisateur</strong> : Vous supprimez vos données de jeu directement dans l'Application.</li>
+<li><strong>Local storage only:</strong> Game data (profiles, scores, history, preferences) is stored <strong>exclusively on your device</strong> in an embedded SQLite database. None of this data is transmitted to the Publisher (who operates no servers).</li>
+<li><strong>Minimization:</strong> We only process data strictly necessary for game functionality and ad delivery.</li>
+<li><strong>Transparency:</strong> We exhaustively declare below all collected data, its purpose, legal basis, and retention period.</li>
+<li><strong>Ad consent:</strong> Personalized advertisements are only displayed with your explicit consent, collected via the Google UMP (User Messaging Platform) consent banner in compliance with the GDPR.</li>
+<li><strong>User control:</strong> You delete your game data directly within the Application.</li>
 </ul>
 <hr>
-<h2>4. Données collectées et finalités</h2>
-<h3>4.1 Données stockées localement sur votre appareil (jamais transmises)</h3>
+<h2>4. Data Collected and Purposes</h2>
+<h3>4.1 Data stored locally on your device (never transmitted)</h3>
 <table>
-<thead><tr><th>Catégorie</th><th>Données</th><th>Finalité</th><th>Base légale (RGPD)</th><th>Conservation</th></tr></thead>
+<thead><tr><th>Category</th><th>Data</th><th>Purpose</th><th>Legal basis (GDPR)</th><th>Retention</th></tr></thead>
 <tbody>
-<tr><td><strong>Profils joueurs</strong></td><td>Prénoms saisis, avatars (émojis), statistiques (victoires, défaites, gages, points)</td><td>Gameplay, affichage des scores, historique personnel</td><td>Art. 6.1.b (exécution du contrat d'utilisation)</td><td>Jusqu'à suppression manuelle</td></tr>
-<tr><td><strong>Historique de parties</strong></td><td>Dates, modes joués, scores, gages reçus, participants</td><td>Statistiques personnelles, révision des parties passées</td><td>Art. 6.1.b (exécution du contrat)</td><td>Jusqu'à suppression manuelle</td></tr>
-<tr><td><strong>Préférences</strong></td><td>Langue, thème (clair/sombre), volumes (musique/SFX), vibrations, fréquence des gages, mélange des modes, ordre des joueurs, mode par défaut, joueurs par défaut, activation/désactivation des publicités</td><td>Personnalisation de l'expérience utilisateur</td><td>Art. 6.1.f (intérêt légitime)</td><td>Jusqu'à réinitialisation ou désinstallation</td></tr>
-<tr><td><strong>Droits d'achat premium</strong></td><td>Identifiants de produits achetés, statut « acheté » des modes premium</td><td>Vérification locale des accès premium, restauration des achats</td><td>Art. 6.1.b (exécution du contrat)</td><td>Jusqu'à suppression ou désinstallation</td></tr>
+<tr><td><strong>Player profiles</strong></td><td>Entered names, avatars (emojis), statistics (wins, losses, forfeits, points)</td><td>Gameplay, score display, personal history</td><td>Art. 6.1.b (contract performance)</td><td>Until manual deletion</td></tr>
+<tr><td><strong>Game history</strong></td><td>Dates, played modes, scores, forfeits received, participants</td><td>Personal statistics, reviewing past games</td><td>Art. 6.1.b (contract performance)</td><td>Until manual deletion</td></tr>
+<tr><td><strong>Preferences</strong></td><td>Language, theme (light/dark), volumes (music/SFX), vibrations, forfeit frequency, mode mixing, player order, default mode, default players, ad toggle</td><td>User experience personalization</td><td>Art. 6.1.f (legitimate interest)</td><td>Until reset or uninstallation</td></tr>
+<tr><td><strong>Premium purchase rights</strong></td><td>Purchased product IDs, premium mode "purchased" status</td><td>Local premium access verification, purchase restoration</td><td>Art. 6.1.b (contract performance)</td><td>Until deletion or uninstallation</td></tr>
 </tbody></table>
-<p><strong>Ces données ne quittent jamais votre appareil.</strong> Elles ne sont ni accessibles, ni lues, ni transmises à l'Éditeur ou à des tiers.</p>
-<h3>4.2 Données transmises à Google LLC (AdMob — publicité intégrée)</h3>
-<p>L'Application contient des publicités interstitielles diffusées par <strong>Google AdMob</strong> (fournisseur : Google LLC / Google Ireland Ltd). Le SDK AdMob, intégré à l'Application, peut collecter et transmettre à Google les données suivantes lorsque des publicités sont affichées :</p>
+<p><strong>This data never leaves your device.</strong> It is not accessible to, read by, or transmitted to the Publisher or any third parties.</p>
+<h3>4.2 Data transmitted to Google LLC (AdMob — integrated advertising)</h3>
+<p>The Application contains interstitial advertisements served by <strong>Google AdMob</strong> (provider: Google LLC / Google Ireland Ltd). The AdMob SDK, integrated into the Application, may collect and transmit the following data to Google when advertisements are displayed:</p>
 <table>
-<thead><tr><th>Donnée</th><th>Description</th><th>Finalité</th><th>Base légale</th><th>Conservation</th></tr></thead>
+<thead><tr><th>Data</th><th>Description</th><th>Purpose</th><th>Legal basis</th><th>Retention</th></tr></thead>
 <tbody>
-<tr><td><strong>Identifiant publicitaire</strong></td><td>Advertising ID (GAID sur Android, IDFA sur iOS)</td><td>Mesure d'audience, fréquence de diffusion, personnalisation des annonces</td><td><strong>Consentement</strong> (Art. 6.1.a) pour les pubs personnalisées ; intérêt légitime pour les pubs non personnalisées</td><td>Selon la politique Google (voir section 8)</td></tr>
-<tr><td><strong>Adresse IP</strong></td><td>Adresse IP de la connexion</td><td>Géolocalisation approximative (région/pays), sélection d'annonces contextuelles</td><td>Consentement / intérêt légitime</td><td>Selon la politique Google</td></tr>
-<tr><td><strong>Données techniques de l'appareil</strong></td><td>Modèle, fabricant, version du système d'exploitation, résolution/taille d'écran, langue, fuseau horaire</td><td>Compatibilité, mesure de performance des annonces</td><td>Intérêt légitime / consentement</td><td>Selon la politique Google</td></tr>
-<tr><td><strong>Données d'usage de l'Application</strong></td><td>Nom de l'application, interactions avec les publicités (impressions, clics), session</td><td>Analyse de performance publicitaire</td><td>Consentement / intérêt légitime</td><td>Selon la politique Google</td></tr>
-<tr><td><strong>Données de diagnostic (crash)</strong></td><td>Rapports d'erreur techniques anonymisés des modules AdMob</td><td>Stabilité technique</td><td>Intérêt légitime (Art. 6.1.f)</td><td>Selon la politique Google</td></tr>
+<tr><td><strong>Advertising ID</strong></td><td>Advertising ID (GAID on Android, IDFA on iOS)</td><td>Audience measurement, delivery frequency, ad personalization</td><td><strong>Consent</strong> (Art. 6.1.a) for personalized ads; legitimate interest for non-personalized ads</td><td>Per Google policy (see section 8)</td></tr>
+<tr><td><strong>IP address</strong></td><td>Connection IP address</td><td>Approximate geolocation (region/country), contextual ad selection</td><td>Consent / legitimate interest</td><td>Per Google policy</td></tr>
+<tr><td><strong>Device technical data</strong></td><td>Model, manufacturer, OS version, screen resolution/size, language, time zone</td><td>Compatibility, ad performance measurement</td><td>Legitimate interest / consent</td><td>Per Google policy</td></tr>
+<tr><td><strong>Application usage data</strong></td><td>Application name, ad interactions (impressions, clicks), session</td><td>Ad performance analysis</td><td>Consent / legitimate interest</td><td>Per Google policy</td></tr>
+<tr><td><strong>Diagnostic data (crash)</strong></td><td>Anonymized technical error reports from AdMob modules</td><td>Technical stability</td><td>Legitimate interest (Art. 6.1.f)</td><td>Per Google policy</td></tr>
 </tbody></table>
-<p><strong>Consentement (bandeau UMP)</strong> : Le cas échéant (utilisateurs de l'Union européenne, de l'Espace économique européen, du Royaume-Uni et des États soumis à des réglementations similaires), un bandeau de consentement <strong>Google UMP (User Messaging Platform)</strong> s'affiche au lancement. Il vous permet de :</p>
+<p><strong>Consent (UMP banner):</strong> Where applicable (users in the European Union, European Economic Area, United Kingdom, and countries subject to similar regulations), a <strong>Google UMP (User Messaging Platform)</strong> consent banner is displayed at launch. It allows you to:</p>
 <ul>
-<li><strong>Accepter</strong> les publicités personnalisées (recommandé pour le fonctionnement complet) ;</li>
-<li><strong>Refuser</strong> les publicités personnalisées : seules des publicités <strong>non personnalisées</strong> seront alors diffusées, sans collecte d'identifiant publicitaire ni profilage.</li>
+<li><strong>Accept</strong> personalized advertisements (recommended for full functionality);</li>
+<li><strong>Refuse</strong> personalized advertisements: only <strong>non-personalized</strong> advertisements will be served, with no advertising ID collection or profiling.</li>
 </ul>
-<p>Vous pouvez modifier votre choix à tout moment via les paramètres Google Ads de votre compte (<a href="https://adssettings.google.com" rel="noopener" target="_blank">https://adssettings.google.com</a>), en réinitialisant l'identifiant publicitaire de votre appareil, ou en désactivant la personnalisation dans les réglages d'Android/iOS. Google, en tant que responsable indépendant de ce traitement, remettra à jour le statut de consentement au prochain lancement.</p>
-<h3>4.3 Données transmises aux stores (achats intégrés)</h3>
+<p>You may change your choice at any time via your Google Ads account settings (<a href="https://adssettings.google.com" rel="noopener" target="_blank">https://adssettings.google.com</a>), by resetting your device's advertising ID, or by disabling personalization in Android/iOS settings. Google, as an independent controller of this processing, will update the consent status at the next launch.</p>
+<h3>4.3 Data transmitted to stores (in-app purchases)</h3>
 <table>
-<thead><tr><th>Donnée</th><th>Destinataire</th><th>Finalité</th><th>Base légale</th><th>Conservation</th></tr></thead>
+<thead><tr><th>Data</th><th>Recipient</th><th>Purpose</th><th>Legal basis</th><th>Retention</th></tr></thead>
 <tbody>
-<tr><td><strong>Tokens et reçus d'achat</strong></td><td>Google (Play Store)</td><td>Authentification et validation des achats in-app, restauration des achats, anti-fraude</td><td>Art. 6.1.b + 6.1.c (obligations comptables et fiscales des stores)</td><td>Voir politique Google ; durée légale comptable (10 ans) gérée par Google</td></tr>
-<tr><td><strong>Compte Google associé</strong></td><td>Google (Play Store)</td><td>Émission des reçus, historique des transactions</td><td>Art. 6.1.b + 6.1.c</td><td>Gérée par Google</td></tr>
+<tr><td><strong>Purchase tokens and receipts</strong></td><td>Google (Play Store)</td><td>In-app purchase authentication and validation, purchase restoration, fraud prevention</td><td>Art. 6.1.b + 6.1.c (store accounting and tax obligations)</td><td>Per Google policy; statutory accounting period (10 years) managed by Google</td></tr>
+<tr><td><strong>Associated Google account</strong></td><td>Google (Play Store)</td><td>Receipt issuance, transaction history</td><td>Art. 6.1.b + 6.1.c</td><td>Managed by Google</td></tr>
 </tbody></table>
-<p>L'Éditeur ne reçoit ni ne stocke <strong>aucune donnée bancaire</strong> (numéro de carte, données de paiement) — celles-ci sont traitées exclusivement par Google.</p>
-<h3>4.4 Données techniques de build et de distribution (Expo / EAS)</h3>
+<p>The Publisher receives and stores <strong>no financial data</strong> (card numbers, payment information) — these are handled exclusively by Google.</p>
+<h3>4.4 Build and distribution technical data (Expo / EAS)</h3>
 <table>
-<thead><tr><th>Donnée</th><th>Destinataire</th><th>Finalité</th><th>Base légale</th><th>Conservation</th></tr></thead>
+<thead><tr><th>Data</th><th>Recipient</th><th>Purpose</th><th>Legal basis</th><th>Retention</th></tr></thead>
 <tbody>
-<tr><td>Logs de build, identifiant de projet, métriques d'usage anonymes</td><td>Expo Inc. (EAS Build, EAS Update)</td><td>Construction, signature et distribution des versions de l'Application</td><td>Art. 6.1.f (intérêt légitime)</td><td>Selon la politique Expo (cf. section 8)</td></tr>
+<tr><td>Build logs, project ID, anonymized usage metrics</td><td>Expo Inc. (EAS Build, EAS Update)</td><td>Building, signing, and distributing Application versions</td><td>Art. 6.1.f (legitimate interest)</td><td>Per Expo policy (see section 8)</td></tr>
 </tbody></table>
 <hr>
-<h2>5. Données NON collectées</h2>
+<h2>5. Data NOT Collected</h2>
 <ul>
-<li><strong>Aucune géolocalisation précise</strong> (GPS) n'est utilisée.</li>
-<li><strong>Aucun accès</strong> aux contacts, photos, microphone, caméra.</li>
-<li><strong>Aucune donnée bancaire</strong> traitée par l'Éditeur.</li>
-<li><strong>Aucun compte utilisateur centralisé</strong>, aucun identifiant de compte créé par l'Éditeur.</li>
-<li><strong>Aucune donnée médicale, biométrique, raciale, religieuse ou d'orientation sexuelle</strong> n'est collectée.</li>
-<li>Les gages des modes « Couple » et « Crazy » peuvent faire référence à de la sensualité entre adultes consentants, mais <strong>aucune donnée relative à ces contenus n'est enregistrée ni transmise</strong>.</li>
+<li><strong>No precise geolocation</strong> (GPS) is used.</li>
+<li><strong>No access</strong> to contacts, photos, microphone, or camera.</li>
+<li><strong>No financial data</strong> processed by the Publisher.</li>
+<li><strong>No centralized user account</strong> — no account identifiers are created by the Publisher.</li>
+<li><strong>No medical, biometric, racial, religious, or sexual orientation data</strong> is collected.</li>
+<li>The forfeits in "Couple" and "Crazy" modes may reference sensuality between consenting adults, but <strong>no data related to these contents is recorded or transmitted</strong>.</li>
 </ul>
 <hr>
-<h2>6. Publicité — détail du fonctionnement</h2>
-<h3>6.1 Types de publicités</h3>
+<h2>6. Advertising — Detailed Functionality</h2>
+<h3>6.1 Ad types</h3>
 <ul>
-<li><strong>Interstitielles</strong> : affichées à des moments précis de l'Application (au démarrage et/ou entre les parties), selon la configuration par défaut et les préférences de l'utilisateur.</li>
+<li><strong>Interstitials:</strong> Displayed at specific moments in the Application (on startup and/or between games), based on default configuration and user preferences.</li>
 </ul>
-<h3>6.2 Publicités personnalisées vs non personnalisées</h3>
+<h3>6.2 Personalized vs non-personalized ads</h3>
 <ul>
-<li><strong>Personnalisées</strong> : basées sur l'identifiant publicitaire, les centres d'intérêt et le comportement de navigation. Nécessitent votre consentement (bandeau UMP).</li>
-<li><strong>Non personnalisées</strong> : basées exclusivement sur le contexte (type de contenu, heure, langue, localisation approximative par IP). Ne nécessitent pas de consentement.</li>
+<li><strong>Personalized:</strong> Based on the advertising ID, interests, and browsing behavior. Require your consent (UMP banner).</li>
+<li><strong>Non-personalized:</strong> Based exclusively on context (content type, time, language, approximate IP location). Do not require consent.</li>
 </ul>
-<h3>6.3 Absence de consentement</h3>
-<p>Si vous refusez la personnalisation, l'Application reste <strong>totalement fonctionnelle</strong> : seules des publicités non personnalisées sont diffusées. Les modes de jeu, les scores et les achats intégrés ne sont pas affectés.</p>
-<h3>6.4 Politique Google</h3>
-<p>La diffusion publicitaire est soumise à la <strong>Politique relative au consentement de l'utilisateur de l'UE</strong> de Google et à la <strong>Politique de confidentialité de Google</strong> : <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">https://policies.google.com/privacy</a></p>
+<h3>6.3 No consent</h3>
+<p>If you decline personalization, the Application remains <strong>fully functional</strong>: only non-personalized advertisements are served. Game modes, scores, and in-app purchases are not affected.</p>
+<h3>6.4 Google policy</h3>
+<p>Ad delivery is subject to Google's <strong>EU User Consent Policy</strong> and Google's <strong>Privacy Policy</strong>: <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">https://policies.google.com/privacy</a></p>
 <hr>
-<h2>7. Partage des données</h2>
-<h3>7.1 Aucun partage commercial avec des tiers</h3>
-<p>Vos données de jeu ne sont <strong>jamais vendues, louées ou échangées</strong> à des fins marketing par l'Éditeur.</p>
-<h3>7.2 Sous-traitants et responsables conjoints</h3>
+<h2>7. Data Sharing</h2>
+<h3>7.1 No commercial sharing with third parties</h3>
+<p>Your game data is <strong>never sold, rented, or exchanged</strong> for marketing purposes by the Publisher.</p>
+<h3>7.2 Sub-processors and joint controllers</h3>
 <table>
-<thead><tr><th>Partenaire</th><th>Rôle</th><th>Données concernées</th><th>Type de relation</th><th>Localisation</th></tr></thead>
+<thead><tr><th>Partner</th><th>Role</th><th>Data involved</th><th>Relationship type</th><th>Location</th></tr></thead>
 <tbody>
-<tr><td><strong>Google AdMob</strong> (Google LLC / Google Ireland Ltd)</td><td>Diffusion publicitaire, mesure d'audience</td><td>Identifiant publicitaire, IP, données techniques, données d'usage publicitaire</td><td>Responsable indépendant (pour les annonces)</td><td>USA / UE</td></tr>
-<tr><td><strong>Google Play</strong> (Google LLC)</td><td>Paiement in-app, distribution</td><td>Reçus d'achat, compte Google</td><td>Responsable indépendant</td><td>USA / UE</td></tr>
-<tr><td><strong>Expo Inc. (EAS)</strong></td><td>Build, signature, distribution technique</td><td>Logs de build, métriques techniques</td><td>Sous-traitant (DPA)</td><td>USA</td></tr>
-<tr><td><strong>SQLite (sur appareil)</strong></td><td>Stockage local de la base de jeu</td><td>Profils, scores, préférences</td><td>Aucune transmission</td><td>Appareil de l'utilisateur</td></tr>
+<tr><td><strong>Google AdMob</strong> (Google LLC / Google Ireland Ltd)</td><td>Ad delivery, audience measurement</td><td>Advertising ID, IP, technical data, ad usage data</td><td>Independent controller (for ads)</td><td>USA / EU</td></tr>
+<tr><td><strong>Google Play</strong> (Google LLC)</td><td>In-app payments, distribution</td><td>Purchase receipts, Google account</td><td>Independent controller</td><td>USA / EU</td></tr>
+<tr><td><strong>Expo Inc. (EAS)</strong></td><td>Build, signing, technical distribution</td><td>Build logs, technical metrics</td><td>Sub-processor (DPA)</td><td>USA</td></tr>
+<tr><td><strong>SQLite (on device)</strong></td><td>Local game database storage</td><td>Profiles, scores, preferences</td><td>No transmission</td><td>User's device</td></tr>
 </tbody></table>
-<h3>7.3 Obligations légales</h3>
-<p>Divulgation de données possible uniquement sur <strong>réquisition judiciaire, injonction réglementaire ou obligation légale impérieuse</strong> (Art. 6.1.c RGPD).</p>
+<h3>7.3 Legal obligations</h3>
+<p>Data disclosure may only occur pursuant to a <strong>court order, regulatory mandate, or imperative legal obligation</strong> (Art. 6.1.c GDPR).</p>
 <hr>
-<h2>8. Transferts hors UE</h2>
-<p>Google et Expo sont des sociétés basées aux <strong>États-Unis</strong>. Les transferts de données en résultant reposent sur :</p>
+<h2>8. Transfers Outside the EU</h2>
+<p>Google and Expo are companies based in the <strong>United States</strong>. Resulting data transfers rely on:</p>
 <ul>
-<li>Les <strong>Clauses Contractuelles Types (CCT)</strong> approuvées par la Commission européenne ;</li>
-<li>La décision d'adéquation <strong>EU-US Data Privacy Framework</strong> (depuis le 10 juillet 2023) pour les entités certifiées (Google l'est).</li>
+<li><strong>Standard Contractual Clauses (SCC)</strong> approved by the European Commission;</li>
+<li>The <strong>EU-US Data Privacy Framework</strong> adequacy decision (since 10 July 2023) for certified entities (Google is certified).</li>
 </ul>
-<p>Politiques applicables :</p>
+<p>Applicable policies:</p>
 <ul>
-<li><strong>Google AdMob / Google Play</strong> : <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">https://policies.google.com/privacy</a></li>
-<li><strong>Expo / EAS</strong> : <a href="https://expo.dev/privacy" rel="noopener" target="_blank">https://expo.dev/privacy</a></li>
+<li><strong>Google AdMob / Google Play:</strong> <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">https://policies.google.com/privacy</a></li>
+<li><strong>Expo / EAS:</strong> <a href="https://expo.dev/privacy" rel="noopener" target="_blank">https://expo.dev/privacy</a></li>
 </ul>
 <hr>
-<h2>9. Durée de conservation</h2>
+<h2>9. Retention Periods</h2>
 <table>
-<thead><tr><th>Données</th><th>Durée</th></tr></thead>
+<thead><tr><th>Data</th><th>Period</th></tr></thead>
 <tbody>
-<tr><td>Profils, historique, préférences (locales)</td><td>Jusqu'à suppression manuelle dans l'Application ou désinstallation</td></tr>
-<tr><td>Données publicitaires AdMob (identifiant, logs d'impressions/clics)</td><td>Selon la politique Google (généralement conservées de 14 mois pour les logs de navigation publicitaire et moins pour les rapports)</td></tr>
-<tr><td>Reçus et tokens d'achat</td><td>Durée de vie du compte Google + obligations comptables (10 ans) — gérées par Google</td></tr>
+<tr><td>Profiles, history, preferences (local)</td><td>Until manual deletion in the Application or uninstallation</td></tr>
+<tr><td>AdMob advertising data (ID, impression/click logs)</td><td>Per Google policy (generally retained up to 14 months for ad browsing logs and less for reports)</td></tr>
+<tr><td>Purchase receipts and tokens</td><td>Google account lifetime + statutory accounting obligations (10 years) — managed by Google</td></tr>
+<tr><td>Build logs / metrics (Expo/EAS)</td><td>Per Expo policy (30–90 days for execution logs)</td></tr>
 </tbody></table>
-<p>| Logs de build / métriques (Expo/EAS) | Selon la politique Expo (30-90 jours pour les logs d'exécution)</p>
-<p><strong>Suppression immédiate possible des données locales :</strong> Menu Options → « Réinitialiser les options » / suppression des profils / effacement de l'historique. La désinstallation de l'Application supprime définitivement toutes les données locales.</p>
+<p><strong>Immediate local data deletion available:</strong> Options menu → "Reset options" / profile deletion / history clearing. Uninstalling the Application permanently deletes all local data.</p>
 <hr>
-<h2>10. Sécurité</h2>
+<h2>10. Security</h2>
 <ul>
-<li><strong>Données locales</strong> : stockées dans le sandbox sécurisé de l'Application (Android app sandbox), chiffrement des accès par Android Keystore pour les éventuelles clés.</li>
-<li><strong>Réseau</strong> : seules les connexions vers les serveurs Google (publicité, achats) et Expo (mises à jour) sont établies, chiffrées en <strong>TLS</strong>.</li>
-<li><strong>Authentification des achats</strong> : validation côté Play Store (Google), anti-fraude.</li>
-<li><strong>Code</strong> : la version distribuée utilise Hermes bytecode ; les mises à jour sont signées (EAS).</li>
+<li><strong>Local data:</strong> Stored in the Application's secure sandbox (Android app sandbox), with access encryption via Android Keystore for any sensitive keys.</li>
+<li><strong>Network:</strong> Only connections to Google servers (advertising, purchases) and Expo (updates) are established, encrypted via <strong>TLS</strong>.</li>
+<li><strong>Purchase authentication:</strong> Validated server-side by the Play Store (Google), with fraud prevention.</li>
+<li><strong>Code:</strong> The distributed version uses Hermes bytecode; updates are signed (EAS).</li>
 </ul>
 <hr>
-<h2>11. Vos droits (Art. 15-22 RGPD)</h2>
+<h2>11. Your Rights (Art. 15–22 GDPR)</h2>
 <table>
-<thead><tr><th>Droit</th><th>Comment l'exercer</th></tr></thead>
+<thead><tr><th>Right</th><th>How to exercise it</th></tr></thead>
 <tbody>
-<tr><td><strong>Accès</strong></td><td>Consulter vos données de jeu dans l'Application (profils, historique, options).</td></tr>
-<tr><td><strong>Rectification</strong></td><td>Modifier prénoms, avatars, préférences directement dans l'Application.</td></tr>
-<tr><td><strong>Effacement</strong></td><td>Supprimer les profils, vider l'historique, réinitialiser les options dans l'Application.</td></tr>
-<tr><td><strong>Portabilité</strong></td><td>Données locales simples, export JSON sur demande écrite.</td></tr>
-<tr><td><strong>Limitation</strong></td><td>Non applicable pour les données locales ; pour les données publicitaires, refus de personnalisation dans le bandeau UMP ou les paramètres Google Ads.</td></tr>
-<tr><td><strong>Opposition</strong></td><td>Désinstaller l'Application = arrêt total du traitement des données locales ; paramètres Google Ads pour la publicité.</td></tr>
-<tr><td><strong>Retrait du consentement</strong></td><td>À tout moment via le bandeau UMP, les paramètres Google Ads ou la réinitialisation de l'identifiant publicitaire.</td></tr>
-<tr><td><strong>Réclamation</strong></td><td>CNIL : <a href="https://www.cnil.fr/fr/vous-souhaitez-deposer-une-plainte" rel="noopener" target="_blank">cnil.fr</a></td></tr>
+<tr><td><strong>Access</strong></td><td>View your game data within the Application (profiles, history, options).</td></tr>
+<tr><td><strong>Rectification</strong></td><td>Edit names, avatars, preferences directly within the Application.</td></tr>
+<tr><td><strong>Erasure</strong></td><td>Delete profiles, clear history, reset options within the Application.</td></tr>
+<tr><td><strong>Portability</strong></td><td>Simple local data, JSON export available upon written request.</td></tr>
+<tr><td><strong>Restriction</strong></td><td>Not applicable for local data; for advertising data, decline personalization in the UMP banner or Google Ads settings.</td></tr>
+<tr><td><strong>Objection</strong></td><td>Uninstall the Application = complete cessation of local data processing; Google Ads settings for advertising.</td></tr>
+<tr><td><strong>Withdraw consent</strong></td><td>At any time via the UMP banner, Google Ads settings, or resetting the advertising ID.</td></tr>
+<tr><td><strong>Complaint</strong></td><td>You may lodge a complaint with your local data protection authority (e.g., CNIL in France: <a href="https://www.cnil.fr/en/complain" rel="noopener" target="_blank">https://www.cnil.fr/en/complain</a>)</td></tr>
 </tbody></table>
-<p><strong>Contact pour exercer vos droits :</strong> faustinlegrand4@gmail.com — réponse sous 30 jours.</p>
+<p><strong>Contact to exercise your rights:</strong> faustinlegrand4@gmail.com — response within 30 days.</p>
 <hr>
-<h2>12. Mineurs et publicité</h2>
+<h2>12. Minors and Advertising</h2>
 <ul>
-<li>L'Application est classée <strong>PEGI 16</strong> (déconseillée aux moins de 16 ans) en raison de références à la consommation d'alcool et à des thèmes pour adultes.</li>
-<li>L'Application affiche un <strong>écran d'accès (age gate)</strong> demandant de confirmer la majorité légale avant toute utilisation.</li>
-<li>Conformément à la politique de Google : aucune publicité personnalisée n'est servie aux utilisateurs dont l'âge est identifié comme inférieur à l'âge du consentement dans leur région ; les annonces adaptées aux familles restent disponibles.</li>
-<li>Les utilisateurs de <strong>Google Play Families</strong> ou ayant un compte mineur recevront automatiquement des annonces non personnalisées ou adaptées.</li>
+<li>The Application is rated <strong>PEGI 16</strong> (not recommended for children under 16) due to references to alcohol consumption and adult themes.</li>
+<li>The Application displays an <strong>age gate</strong> requiring users to confirm legal age before any use.</li>
+<li>In compliance with Google policy: no personalized ads are served to users identified as below the age of consent in their region; family-friendly ads remain available.</li>
+<li><strong>Google Play Families</strong> users or accounts identified as minors will automatically receive non-personalized or family-appropriate ads.</li>
 </ul>
 <hr>
-<h2>13. Cookies / Traceurs</h2>
+<h2>13. Cookies / Trackers</h2>
 <ul>
-<li><strong>Aucun cookie</strong> n'est stocké par l'Application.</li>
-<li>L'Application intègre un <strong>SDK publicitaire tiers</strong> (AdMob/Google) qui utilise des <strong>identifiants publicitaires</strong> (Advertising ID) et des mécanismes de suivi publicitaire conformément au RGPD et à la politique de Google.</li>
-<li><strong>Aucun autre traceur</strong> (Firebase Analytics, Google Analytics, Facebook, Adjust, AppsFlyer, etc.) n'est présent.</li>
+<li><strong>No cookies</strong> are stored by the Application.</li>
+<li>The Application integrates a <strong>third-party advertising SDK</strong> (AdMob/Google) that uses <strong>advertising identifiers</strong> (Advertising ID) and ad tracking mechanisms in compliance with the GDPR and Google policy.</li>
+<li><strong>No other trackers</strong> (Firebase Analytics, Google Analytics, Facebook, Adjust, AppsFlyer, etc.) are present.</li>
 </ul>
 <hr>
-<h2>14. Modifications</h2>
-<p>Toute évolution de la présente Politique sera reflétée par un changement de version et de date de mise à jour. Les utilisateurs sont invités à consulter régulièrement cette page. En cas de changement substantiel, une notification sera affichée dans l'Application.</p>
+<h2>14. Changes</h2>
+<p>Any updates to this Policy will be reflected by a change in version and update date. Users are encouraged to review this page regularly. In the event of a material change, a notification will be displayed within the Application.</p>
 <hr>
 <h2>15. Contact</h2>
-<p><strong>Email :</strong> faustinlegrand4@gmail.com</p>
-<p><strong>Adresse postale :</strong> 9 rue du Pressoir, 80800 Villers-Bretonneux</p>
-<p><strong>Délai de réponse :</strong> 30 jours maximum.</p>
-<p>Pour les questions relatives à la publicité et à vos choix publicitaires : <a href="https://support.google.com/adsense" rel="noopener" target="_blank">https://support.google.com/adsense</a> ou votre compte Google Ads.</p>
+<p><strong>Email:</strong> faustinlegrand4@gmail.com</p>
+<p><strong>Postal address:</strong> 9 rue du Pressoir, 80800 Villers-Bretonneux, France</p>
+<p><strong>Response time:</strong> Maximum 30 days.</p>
+<p>For questions related to advertising and your ad choices: <a href="https://support.google.com/adsense" rel="noopener" target="_blank">https://support.google.com/adsense</a> or your Google Ads account.</p>
 <hr>
-<p><em>Document relu en version 2.0 le 2026-09-15 — à compléter avec vos informations légales avant mise en ligne. Recommandation : faire valider par un professionnel du droit (avocat ou juriste) si votre activité se développe.</em></p>
-    <footer>© 2026 Faustin LEGRAND — DartsNDrunks. Tous droits réservés.</footer>
+<p><em>Document reviewed as version 2.0 on 2026-09-15 — to be supplemented with your legal information before publication. Recommendation: have this document reviewed by a legal professional if your business scales.</em></p>
+    <footer>© 2026 Faustin LEGRAND — DartsNDrunks. All rights reserved.</footer>
   </div>
 </body>
 </html>
