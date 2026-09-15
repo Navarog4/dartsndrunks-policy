@@ -147,7 +147,7 @@ Politiques applicables :
 | Profils, historique, préférences (locales) | Jusqu'à suppression manuelle dans l'Application ou désinstallation |
 | Données publicitaires AdMob (identifiant, logs d'impressions/clics) | Selon la politique Google (généralement conservées de 14 mois pour les logs de navigation publicitaire et moins pour les rapports) |
 | Reçus et tokens d'achat | Durée de vie du compte Google + obligations comptables (10 ans) — gérées par Google |
-| Logs de build / métriques (Expo/EAS) | Selon la politique Expo (30-90 jours pour les logs d'exécution)
+| Logs de build / métriques (Expo/EAS) | Selon la politique Expo (30-90 jours pour les logs d'exécution) |
 
 **Suppression immédiate possible des données locales :** Menu Options → « Réinitialiser les options » / suppression des profils / effacement de l'historique. La désinstallation de l'Application supprime définitivement toutes les données locales.
 
